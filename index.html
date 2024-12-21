@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for setting character encoding, viewport settings, and compatibility -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shital-Portfolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Linking Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header">
+      <div class="header__content">
+        <!-- Logo and name container -->
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <!-- Logo image -->
+            <img
+              src="./assets/jpeg/situuu.jpg"
+              alt="Shital Gokhe"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Shital Gokhe</span>
+        </div>
+        <!-- Navigation links -->
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <!-- Hamburger menu for small screens -->
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Small screen menu -->
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <!-- Main heading and introduction -->
+        <h1 class="heading-primary">Hey, My name is Shital Gokhe</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Innovating Solutions | Building a Better Digital Future</p>
+        </div>
+        <div class="home-hero__cta">
+          <!-- Link to projects -->
+          <a href="resume.pdf"  download class="btn btn--bg">Download CV</a>
+        </div>
+      </div>
+      <!-- Social media links -->
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/shital-gokhe-6032a2304/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <!-- Repeat for GitHub, Twitter, YouTube, Instagram -->
+        <div class="home-hero__social">
+          <a href="https://github.com/shital-1396" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      <div class="home-hero__social">
+        <a href="#" class="home-hero__social-icon-link">
+          <img
+            src="./assets/png/twitter-ico.png"
+            alt="icon"
+            class="home-hero__social-icon"
+          />
+        </a>
+      </div>
+  
+     <div class="home-hero__social">
+      <a href="#" class="home-hero__social-icon-link">
+        <img
+          src="./assets/png/insta-ico.png"
+          alt="icon"
+          class="home-hero__social-icon"
+        />
+      </a>
+      </div>
+      </div>
+      <div class="home-hero__social">
+        <a href="#" class="home-hero__social-icon-link">
+          <img
+            src="./assets/png/insta-ico.png"
+            alt="icon"
+            class="home-hero__social-icon"
+          />
+        </a>
+        </div>
+        </div>
+
+      <div class="home-hero__mouse-scroll-cont">
+        <!-- Scroll down icon -->
+        <div class="mouse"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <!-- About section heading -->
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Innovating Solutions | Building a Better Digital Future
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <!-- Main content of the about section -->
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hello! I'm Shital Gokhe, a passionate and dedicated  Frontend Developer, Machine Learning Enthusiast. Currently pursuing a Bachelor of Technology (B.tec) from Sagar Institute of Science, Technology and Research, Ratibad, Bhopal. With a strong foundation in  Frontend, Machine Learning, or Python I strive to create innovative and impactful solutions.
+                <br>
+                I have worked on diverse projects, including:
+                <br>
+                <strong> Bus Tracking System </strong>: Leveraged the Mapbox API to display live bus locations, reducing inconvenience for students.
+                <br>
+                <strong>ResultShodh </strong>: Automated bulk result extraction using CAPTCHA solving, streamlining data retrieval for academic purposes.
+                <br>
+                <strong>Digital Fraud Awareness Platform </strong>: Empowered users to report and learn about online fraud.
+                <br>
+                My goal is to Build user-centric Web applications, to move toward Data Science field continuously learning and growing in my field.
+                <br>
+
+                When I'm not coding, I enjoy exploring new technologies, reading about AI.
+                <br>
+                Let's connect and create something amazing together!
+
+
+              </p>
+              <p class="about__content-details-para">
+                Additional details or fun facts about you.
+              </p>
+            </div>
+            <!-- Link to contact section -->
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <!-- List of skills -->
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">Javascripts</div>
+              <div class="skills__skill">Machine Learning</div>
+              <div class="skills__skill">Deep Learning</div>
+              <div class="skills__skill">Flask</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">C</div>
+              <div class="skills__skill">CPP</div>
+              <div class="skills__skill">Java</div>
+              <!-- Add other skills here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <!-- Projects heading -->
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            <h1>Project-1 : Digital Fraud Awareness</h1> 
+          </span>
+        </h2>
+        <div class="projects__content">
+          <div class="projects__row">
+            <!-- Single project -->
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/digital_fraud.png"
+                alt="Website of digital_fraud"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Digital Fraud Awareness</h3>
+              <p class="projects__row-content-desc">
+                Developed a comprehensive platform aimed at educating users about prevalent online scams and digital
+                fraud tactics. The project highlights key Cybersecurity practices, real-world case studies, and preventive 
+                strategies to empower individuals with the knowledge to safeguard their personal and financial information 
+                in the digital age.
+              </p>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/bus_tracking.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Real Time Bus Tracking System</h3>
+              <p class="projects__row-content-desc">
+                The Real-Time Bus Tracking System is an innovative solution designed to enhance the daily commute experience for college students. By integrating live GPS tracking, this system provides real-time updates on the location of the college bus, ensuring that students are always informed about its status.
+              </p>
+            </div> 
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/resultshodh.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">ResultShodh</h3>
+              <p class="projects__row-content-desc">
+                ResultShodh is a web application designed to simplify the process of downloading bulk results from the RGPV website. The platform utilizes machine learning and OCR (Optical Character Recognition) techniques to bypass CAPTCHA challenges, allowing users to quickly and efficiently retrieve multiple results at once
+              </p>
+            </div> 
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/chatbot.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Chatbot</h3>
+              <p class="projects__row-content-desc">
+                Chatbot design to handle queries about the website..
+              </p>
+            </div> 
+          </div>
+          <!-- Repeat for more projects -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <!-- Contact heading -->
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Brief description about how to contact you
+          </span>
+        </h2>
+        <!-- Contact form -->
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+              <label class="contact__form-label" for="contact">Contact</label>
+              <input
+                required
+                placeholder="Enter Your Mobile number"
+                type="text"
+                class="contact__form-input"
+                name="Mobile number"
+                id="name"
+              />
+              <label class="contact__form-label" for="contact">Contact</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="Email"
+                id="Email"
+              />
+              <label class="contact__form-label" for="message">Message</label>
+              <input
+                required
+                placeholder="Enter message "
+                type="text"
+                class="contact__form-input"
+                name="Message"
+                id="message"
+              />
+            </div>
+            <!-- Repeat for email and message -->
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/shital-gokhe-6032a2304/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/shital-1396">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Shital Gokhe</h4>
+            <p class="main-footer__short-desc">
+              <p>Contact</p>
+              <p>Email: <a href="mailto:shitalgokhe@gmail.com">shitalgokhe@gmail.com</a></p>
+              <p>&copy; Shital Gokhe 2024 | All Rights Reserved</p>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+
+    
+    
